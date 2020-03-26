@@ -1,28 +1,30 @@
 import React from 'react';
+import { Route,NavLink,HashRouter } from 'react-router-dom';
 import './App.css';
-import portfolioImg from './img/portfolio-img.jpg';
+import Home from './Home';
+import Experience from './Experience';
+import Contact from './Contact'
 
 class App extends React.Component {
 	render() {
 		return (
-			<div>
-				<div className="header">
-					<h1>My Portfolio</h1>
-				</div>
-				<div className="navbar">
-					<a href="#">Home</a>
-					<a href="#">Experience</a>
-					<a href="#">Contact Information</a>
-				</div>
-				<div className="about-container">
-					<div className="image-container">
-						<img alt="my pic" src={portfolioImg}/>
+			<HashRouter>
+				<div>
+					<div className="header">
+						<h1>My Portfolio</h1>
 					</div>
-					<div className="intro-container">
-						<p>Hi there! My name is Varun Peesapati! Welcome to my website!</p>
+					<div className="navbar">
+						<NavLink exact to="/">Home</NavLink>
+						<NavLink to="/experience">Experience</NavLink>
+						<NavLink to="/contact">Contact Information</NavLink>
+					</div>
+					<div className="content">
+						<Route exact path="/" component={Home} />
+						<Route path="/experience" component={Experience} />
+						<Route path="/contact" component={Contact} />
 					</div>
 				</div>
-			</div>
+			</HashRouter>
 		);
 	}
 }

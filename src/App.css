@@ -38,6 +38,10 @@ body {
 	color: black;
 }
 
+.active {
+  background-color: #00802b;
+}
+
 .about-container {
 	padding: 60px;
 }
