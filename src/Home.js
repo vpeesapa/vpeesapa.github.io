@@ -9,7 +9,7 @@ class Home extends React.Component {
 					<img alt="my pic" src={portfolioImg}/>
 				</div>
 				<div className="intro-container">
-					<p>Hi there! My name is Varun Peesapati! Welcome to my website!</p>
+					<p>Hi there! I am Varun Peesapati, an aspiring game developer and coding enthusiast!</p>
 				</div>
 			</div>
 		);

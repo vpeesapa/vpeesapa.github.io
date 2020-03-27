@@ -43,7 +43,7 @@ body {
 }
 
 .about-container {
-	padding: 60px;
+	padding: 40px;
 }
 
 .image-container {
@@ -61,11 +61,11 @@ body {
 	float: right;
 	text-align: center;
 	width: 49%;
-	padding-top: 130px;
+	padding-top: 100px;
 }
 
 .intro-container p {
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .contact-container {
@@ -73,19 +73,8 @@ body {
 	font-size: 30px;
 }
 
-.buttons-container {
-	padding-top: 30px;
-	text-align: center;
-}
-
-.button {
-	background-color: black;
-	border-radius: 100px;
-	border: none;
-	color: white;
-	padding: 20px 34px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 20px;
-	margin: 4px 2px;
+.social-links {
+	padding: 0px 10px;
+	word-wrap: normal;
+	display: inline-block;
 }

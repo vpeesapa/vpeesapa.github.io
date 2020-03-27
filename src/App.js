@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route,NavLink,HashRouter } from 'react-router-dom';
+import { IoLogoGithub,IoLogoLinkedin,IoLogoFacebook } from "react-icons/io";
 import './App.css';
 import Home from './Home';
 import Experience from './Experience';
@@ -11,7 +12,10 @@ class App extends React.Component {
 			<HashRouter>
 				<div>
 					<div className="header">
-						<h1>My Portfolio</h1>
+						<h1>Varun Peesapati</h1>
+						<a className="social-links" href="https://github.com/vpeesapa"><IoLogoGithub size={40} color="white" /></a>
+						<a className="social-links" href="https://linkedin.com/in/vpeesapati"><IoLogoLinkedin size={40} color="white" /></a>
+						<a className="social-links" href="https://www.facebook.com/varun.peesapati"><IoLogoFacebook size={40} color="white" /></a>
 					</div>
 					<div className="navbar">
 						<NavLink exact to="/">Home</NavLink>
