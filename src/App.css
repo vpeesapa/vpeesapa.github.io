@@ -38,8 +38,9 @@ body {
 	color: black;
 }
 
-.active {
-  background-color: #00802b;
+.navbar a.active {
+  background-color: #66e0ff;
+  color: black;
 }
 
 .about-container {
