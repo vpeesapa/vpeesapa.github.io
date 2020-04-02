@@ -13,9 +13,9 @@ class App extends React.Component {
 				<div>
 					<div className="header">
 						<h1>Varun Peesapati</h1>
-						<a className="social-links" href="https://github.com/vpeesapa"><IoLogoGithub size={40} color="white" /></a>
-						<a className="social-links" href="https://linkedin.com/in/vpeesapati"><IoLogoLinkedin size={40} color="white" /></a>
-						<a className="social-links" href="https://www.facebook.com/varun.peesapati"><IoLogoFacebook size={40} color="white" /></a>
+						<a className="social-links" href="https://github.com/vpeesapa"><IoLogoGithub size={37} /></a>
+						<a className="social-links" href="https://linkedin.com/in/vpeesapati"><IoLogoLinkedin size={37} /></a>
+						<a className="social-links" href="https://www.facebook.com/varun.peesapati"><IoLogoFacebook size={37} /></a>
 					</div>
 					<div className="navbar">
 						<NavLink exact to="/">Home</NavLink>

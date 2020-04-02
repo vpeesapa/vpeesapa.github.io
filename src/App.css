@@ -17,6 +17,7 @@ body {
 
 .header h1 {
 	font-size: 40px;
+	margin-bottom: 0;
 }
 
 .navbar {
@@ -78,4 +79,9 @@ body {
 	padding: 0px 10px;
 	word-wrap: normal;
 	display: inline-block;
+	color: white;
+}
+
+.social-links:hover {
+	color: #cccccc;
 }
