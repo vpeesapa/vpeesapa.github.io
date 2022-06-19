@@ -52,7 +52,7 @@ function Header(props) {
                         </ListItem>
                     ))
                 }
-            <ListItem key="social-media-icons" disablePadding sx={{mx: 5}}>
+            <ListItem key="social-media-icons" disablePadding sx={{paddingLeft: 5}}>
                 {
                     socialMediaLinks.map((socialMediaLink) => (
                         <IconButton color="inherit" href={socialMediaLink.link}>
