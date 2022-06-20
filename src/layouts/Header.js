@@ -37,7 +37,7 @@ function Header(props) {
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{textAlign: 'center'}}>
             <Link to="/" style={{textDecoration: 'none',color: "inherit"}}>
-                <Typography variant="h6" sx={{my: 2}}>
+                <Typography variant="h6" sx={{my: 2,fontFamily: 'Play'}}>
                     Varun Peesapati
                 </Typography>
             </Link>
@@ -47,7 +47,7 @@ function Header(props) {
                     headers.map((header) => (
                         <ListItem key={header.title} disablePadding>
                             <ListItemButton sx={{textAlign: 'center'}} onClick={() => navigate(header.path)}>
-                                <ListItemText primary={header.title} />
+                                <ListItemText primary={<Typography sx={{fontFamily: 'Play'}}>{header.title}</Typography>} />
                             </ListItemButton>
                         </ListItem>
                     ))
@@ -83,7 +83,7 @@ function Header(props) {
                 <Typography
                     variant="h4"
                     component="div"
-                    sx={{fontSize: 32,textAlign: 'left',flexGrow: 1,display: {xs: 'none',sm: 'block'}}}
+                    sx={{fontSize: 32,textAlign: 'left',flexGrow: 1,display: {xs: 'none',sm: 'block'},fontFamily: 'Play'}}
                 >
                     <Link to="/" style={{textDecoration: 'none',color: 'inherit'}}>
                         Varun Peesapati
@@ -92,7 +92,7 @@ function Header(props) {
                 <Box sx={{display: {xs: 'none',sm: 'block'}}}>
                     {
                         headers.map((header) => (
-                            <Button key={header.title} sx={{color: '#FFF'}} onClick={() => navigate(header.path)}>
+                            <Button size="large" key={header.title} sx={{color: '#FFF',fontFamily: 'Play'}} onClick={() => navigate(header.path)}>
                                 {header.title}
                             </Button>
                         ))

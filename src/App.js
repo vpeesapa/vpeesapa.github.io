@@ -1,3 +1,4 @@
+import * as React from 'react';
 import {
   BrowserRouter as Router,
   Routes,
@@ -7,8 +8,17 @@ import Header from './layouts/Header';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import './App.css';
+import WebFont from 'webfontloader';
 
 function App() {
+  React.useEffect(() => {
+    WebFont.load({
+        google: {
+            families: ['Play']
+        }
+    });
+  },[]);
+  
   return (
     <Router>
       <div className="App">
