@@ -7,6 +7,7 @@ import {
     useMediaQuery
 } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
+import Resume from '../../data/documents/Varun_Peesapati_Resume.pdf';
 
 function TitleBar(props) {
     // Responsive font size
@@ -21,7 +22,7 @@ function TitleBar(props) {
                 </Typography>
             </Box>
             <Box sx={{pr: {xs: 0},pt: {xs: 0,sm: 0.5}}}>
-                <Button variant="contained" endIcon={<DownloadIcon />} sx={{fontFamily: 'Play',backgroundColor: '#000000','&:hover': {backgroundColor: '#000000'}}}>
+                <Button href={Resume} variant="contained" endIcon={<DownloadIcon />} sx={{fontFamily: 'Play',backgroundColor: '#000000','&:hover': {backgroundColor: '#000000'}}}>
                     Resume
                 </Button>
             </Box>

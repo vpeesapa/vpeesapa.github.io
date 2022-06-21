@@ -11,6 +11,10 @@ export const headers = [
         path: '/'
     },
     {
+        title: 'About',
+        path: '/about'
+    },
+    {
         title: 'Portfolio',
         path: '/portfolio'
     }
