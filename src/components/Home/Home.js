@@ -28,7 +28,7 @@ function Home(props) {
             />
             <Box sx={{marginTop: 10}}>
                 <Typography sx={{fontSize: {fontSize},fontFamily: 'Play'}}>
-                    Hello there, explorer of the Internet!
+                    Hello there, explorer on the Internet!
                 </Typography>
                 <br />
                 <Typography sx={{fontSize: {fontSize},fontFamily: 'Play'}}>

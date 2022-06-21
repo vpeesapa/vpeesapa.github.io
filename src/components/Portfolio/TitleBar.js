@@ -16,12 +16,12 @@ function TitleBar(props) {
     return (
         <Stack direction="row" sx={{display: 'flex',justifyContent: 'space-between'}}>
             <Box>
-                <Typography sx={{textAlign: 'left',fontSize: {fontSize},fontFamily: 'Play',pl: {xs: 7,sm: 10}}}>
+                <Typography sx={{textAlign: 'left',fontSize: {fontSize},fontFamily: 'Play',pl: {xs: 0}}}>
                         Portfolio
                 </Typography>
             </Box>
-            <Box sx={{pr: {xs: 7,sm: 10}}}>
-                <Button variant="contained" endIcon={<DownloadIcon />} sx={{backgroundColor: '#000000','&:hover': {backgroundColor: '#000000'}}}>
+            <Box sx={{pr: {xs: 0},pt: {xs: 0,sm: 0.5}}}>
+                <Button variant="contained" endIcon={<DownloadIcon />} sx={{fontFamily: 'Play',backgroundColor: '#000000','&:hover': {backgroundColor: '#000000'}}}>
                     Resume
                 </Button>
             </Box>

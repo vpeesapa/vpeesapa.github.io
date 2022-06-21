@@ -23,7 +23,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div style={{marginTop: 100}}>
+        <div style={{margin: "100px 20px 20px 20px",borderStyle: 'dashed',backgroundColor: '#faf887',padding: 20}}>
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/portfolio" element={<Portfolio />} />
