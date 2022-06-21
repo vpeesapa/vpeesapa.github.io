@@ -4,7 +4,7 @@ import {
     Typography,
     useMediaQuery
 } from '@mui/material';
-import portfolioImg from '../data/images/portfolio-img.jpg';
+import portfolioImg from '../../data/images/portfolio-img.jpg';
 
 function Home(props) {
 

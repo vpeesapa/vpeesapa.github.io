@@ -5,8 +5,8 @@ import {
   Route
 } from 'react-router-dom';
 import Header from './layouts/Header';
-import Home from './components/Home';
-import Portfolio from './components/Portfolio';
+import Home from './components/Home/Home';
+import Portfolio from './components/Portfolio/Portfolio';
 import './App.css';
 import WebFont from 'webfontloader';
 

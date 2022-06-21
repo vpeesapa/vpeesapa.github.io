@@ -80,31 +80,31 @@ function Header(props) {
                     >
                         <MenuIcon />
                     </IconButton>
-                <Typography
-                    variant="h4"
-                    component="div"
-                    sx={{fontSize: 32,textAlign: 'left',flexGrow: 1,display: {xs: 'none',sm: 'block'},fontFamily: 'Play'}}
-                >
-                    <Link to="/" style={{textDecoration: 'none',color: 'inherit'}}>
-                        Varun Peesapati
-                    </Link>
-                </Typography>
-                <Box sx={{display: {xs: 'none',sm: 'block'}}}>
-                    {
-                        headers.map((header) => (
-                            <Button size="large" key={header.title} sx={{color: '#FFF',fontFamily: 'Play'}} onClick={() => navigate(header.path)}>
-                                {header.title}
-                            </Button>
-                        ))
-                    }
-                    {
-                        socialMediaLinks.map((socialMediaLink) => (
-                            <IconButton color="inherit" href={socialMediaLink.link}>
-                                {socialMediaLink.icon}
-                            </IconButton>
-                        ))
-                    }
-                </Box>
+                    <Typography
+                        variant="h4"
+                        component="div"
+                        sx={{fontSize: 32,textAlign: 'left',flexGrow: 1,display: {xs: 'none',sm: 'block'},fontFamily: 'Play'}}
+                    >
+                        <Link to="/" style={{textDecoration: 'none',color: 'inherit'}}>
+                            Varun Peesapati
+                        </Link>
+                    </Typography>
+                    <Box sx={{display: {xs: 'none',sm: 'block'}}}>
+                        {
+                            headers.map((header) => (
+                                <Button size="large" key={header.title} sx={{color: '#FFF',fontFamily: 'Play'}} onClick={() => navigate(header.path)}>
+                                    {header.title}
+                                </Button>
+                            ))
+                        }
+                        {
+                            socialMediaLinks.map((socialMediaLink) => (
+                                <IconButton color="inherit" href={socialMediaLink.link}>
+                                    {socialMediaLink.icon}
+                                </IconButton>
+                            ))
+                        }
+                    </Box>
                 </Toolbar>
             </AppBar>
             <Box component="nav">
