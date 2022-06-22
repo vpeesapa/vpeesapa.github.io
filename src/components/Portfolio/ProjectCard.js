@@ -21,6 +21,7 @@ function ProjectCard(props) {
                     height="200"
                     image={data.thumbnail}
                     alt={data.title}
+                    sx={{objectFit: 'fill'}}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div" sx={{fontSize: {fontSize},fontFamily: 'Play'}}>

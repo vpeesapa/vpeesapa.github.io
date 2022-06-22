@@ -7,6 +7,7 @@ import {
     useMediaQuery
 } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
+import ImportContactsIcon from '@mui/icons-material/ImportContacts';
 import Resume from '../../data/documents/Varun_Peesapati_Resume.pdf';
 
 function TitleBar(props) {
@@ -16,7 +17,8 @@ function TitleBar(props) {
 
     return (
         <Stack direction="row" sx={{display: 'flex',justifyContent: 'space-between'}}>
-            <Box>
+            <Box sx={{display: 'flex',justifyContent: 'flex-start'}}>
+                <ImportContactsIcon sx={{pr: 2,pt: {xs: 0,sm: 1.5}}} />
                 <Typography sx={{textAlign: 'left',fontSize: {fontSize},fontFamily: 'Play',fontWeight: 'bold',pl: {xs: 0}}}>
                         Portfolio
                 </Typography>

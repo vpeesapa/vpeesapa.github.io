@@ -51,7 +51,7 @@ function Home(props) {
                 <Divider />
                 <Box>
                     <Typography sx={{p: {xs: 3,sm: 3},fontSize: {fontSize},fontFamily: 'Play'}}>
-                        To check out all the projects that I've worked on, click <Link to="/portfolio">here</Link>.
+                        To check out all the projects I've worked on, click <Link to="/portfolio">here</Link>.
                     </Typography>
                     <Stack direction="row" sx={{display: 'flex',flexWrap: 'wrap',justifyContent: 'center'}}>
                         {
@@ -60,11 +60,11 @@ function Home(props) {
                                     component="img"
                                     sx={{
                                         height: 250,
-                                        width: 300,
+                                        width: 500,
                                         maxHeight: {xs: 300,md: 400},
                                         maxWidth: {xs: 300,md: 400},
                                         p: {xs: 3,sm: 3},
-                                        borderRadius: '15%'
+                                        borderRadius: '20%'
                                     }}
                                     alt={project.title}
                                     src={project.thumbnail}
