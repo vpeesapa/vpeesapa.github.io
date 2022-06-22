@@ -17,7 +17,7 @@ function TitleBar(props) {
     return (
         <Stack direction="row" sx={{display: 'flex',justifyContent: 'space-between'}}>
             <Box>
-                <Typography sx={{textAlign: 'left',fontSize: {fontSize},fontFamily: 'Play',pl: {xs: 0}}}>
+                <Typography sx={{textAlign: 'left',fontSize: {fontSize},fontFamily: 'Play',fontWeight: 'bold',pl: {xs: 0}}}>
                         Portfolio
                 </Typography>
             </Box>

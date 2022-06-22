@@ -6,7 +6,7 @@ import {
 import ProjectCard from './ProjectCard';
 import {
     cards
-} from '../../data/constants'
+} from '../../data/constants';
 
 function Projects(props) {
     const matches = useMediaQuery('(max-width:800px)');

@@ -59,6 +59,12 @@ export const cards = [
         link: "https://megane20.itch.io/untitled-platformer-game"
     },
     {
+        title: "3D Graphics Library",
+        description: "A simple 3D graphics library that renders and modifies images based on specifications",
+        thumbnail: "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2FtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
+        link: ""
+    },
+    {
         title: "HealthyU",
         description: "An easy-to-use web application that curates relevant health information specifically catered towards senior citizens",
         thumbnail: "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2FtZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60",
