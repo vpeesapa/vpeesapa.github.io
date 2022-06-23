@@ -5,6 +5,7 @@ import {
   Route
 } from 'react-router-dom';
 import Header from './layouts/Header';
+import Footer from './layouts/Footer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Portfolio from './components/Portfolio/Portfolio';
@@ -32,6 +33,7 @@ function App() {
           </Routes>
         </div>
       </div>
+      <Footer />
     </Router>
   );
 }
