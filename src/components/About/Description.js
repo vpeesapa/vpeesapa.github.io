@@ -80,7 +80,7 @@ function Description(props) {
             </Typography>
             <br />
             <Typography sx={{fontSize: {fontSize},fontFamily: 'Play'}}>
-                Some of my favorite books include <b>Blood, Sweat, and Pixels</b> by <b>Jason Schrier</b>, <b>Steel Ball Run</b> by <b>Hirohiko Araki</b>, and <b>Vinland Saga</b> by <b>Makoto Yukimura</b>.
+                Some of my favorite books include <b>Blood, Sweat, and Pixels</b> by <b>Jason Schreier</b>, <b>Steel Ball Run</b> by <b>Hirohiko Araki</b>, and <b>Vinland Saga</b> by <b>Makoto Yukimura</b>.
             </Typography>
             <br />
             <Typography sx={{fontSize: {fontSize},fontFamily: 'Play'}}>
