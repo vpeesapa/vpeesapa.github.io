@@ -1,4 +1,9 @@
 import * as React from 'react';
+import {
+    Stack
+} from '@mui/material';
+import TitleBar from './TitleBar';
+import Description from './Description';
 
 function About(props) {
     React.useEffect(() => {
@@ -7,9 +12,12 @@ function About(props) {
     },[]);
     
     return (
-        <div>
-            <h1>About Page</h1>
-        </div>
+        <Stack>
+            <TitleBar />
+            <div>
+                <Description />
+            </div>
+        </Stack>
     );
 }
 
