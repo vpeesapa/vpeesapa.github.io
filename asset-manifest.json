@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2f2d0d80.css",
-    "main.js": "/static/js/main.c8b0473f.js",
+    "main.js": "/static/js/main.695da439.js",
     "static/js/787.2df0ac3d.chunk.js": "/static/js/787.2df0ac3d.chunk.js",
     "static/media/untitled-platformer-game.png": "/static/media/untitled-platformer-game.30356a3c5f94c2a26b12.png",
     "static/media/Effugium_Logo.jpg": "/static/media/Effugium_Logo.bceafd496a38bd2e693b.jpg",
@@ -9,15 +9,20 @@
     "static/media/portfolio-img.jpg": "/static/media/portfolio-img.51fc1adb5d3919fd28c9.jpg",
     "static/media/scheduled.png": "/static/media/scheduled.e51e63dc67c7a0dda200.png",
     "static/media/teapot.png": "/static/media/teapot.b68e5a123ef4c5ca58d1.png",
+    "static/media/bsp-cover.jpg": "/static/media/bsp-cover.0eb9f7f4c8f88620ab62.jpg",
+    "static/media/vinland-saga.jpg": "/static/media/vinland-saga.6608b0f0d715373e6f0d.jpg",
+    "static/media/uc-davis-logo.png": "/static/media/uc-davis-logo.7b32b4ea15002011eb4f.png",
     "static/media/The Endless Battle.png": "/static/media/The Endless Battle.d69e74d80887ce9d7ec0.png",
     "static/media/healthy-u.png": "/static/media/healthy-u.af5c32280895a83d95c7.png",
+    "static/media/nier-cover.jpg": "/static/media/nier-cover.c683f6b224965c9498b3.jpg",
+    "static/media/usc-logo.png": "/static/media/usc-logo.93716ea1a356914b3c9b.png",
     "index.html": "/index.html",
     "main.2f2d0d80.css.map": "/static/css/main.2f2d0d80.css.map",
-    "main.c8b0473f.js.map": "/static/js/main.c8b0473f.js.map",
+    "main.695da439.js.map": "/static/js/main.695da439.js.map",
     "787.2df0ac3d.chunk.js.map": "/static/js/787.2df0ac3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f2d0d80.css",
-    "static/js/main.c8b0473f.js"
+    "static/js/main.695da439.js"
   ]
 }
