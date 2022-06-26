@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2f2d0d80.css",
-    "main.js": "/static/js/main.b9625118.js",
+    "main.js": "/static/js/main.d7108bec.js",
     "static/js/787.2df0ac3d.chunk.js": "/static/js/787.2df0ac3d.chunk.js",
     "static/media/untitled-platformer-game.png": "/static/media/untitled-platformer-game.30356a3c5f94c2a26b12.png",
     "static/media/Effugium_Logo.jpg": "/static/media/Effugium_Logo.bceafd496a38bd2e693b.jpg",
@@ -18,11 +18,11 @@
     "static/media/usc-logo.png": "/static/media/usc-logo.93716ea1a356914b3c9b.png",
     "index.html": "/index.html",
     "main.2f2d0d80.css.map": "/static/css/main.2f2d0d80.css.map",
-    "main.b9625118.js.map": "/static/js/main.b9625118.js.map",
+    "main.d7108bec.js.map": "/static/js/main.d7108bec.js.map",
     "787.2df0ac3d.chunk.js.map": "/static/js/787.2df0ac3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f2d0d80.css",
-    "static/js/main.b9625118.js"
+    "static/js/main.d7108bec.js"
   ]
 }
