@@ -44,8 +44,8 @@ function ProjectDetails(props) {
     return (
         <Box>
             <Stack direction="column" sx={{display: 'flex'}}>
-                <Button size={buttonSize} variant="contained" sx={{width: {xs: '10%',lg: '5%'},fontFamily: 'Play',backgroundColor: '#000000','&:hover': {backgroundColor: '#000000'}}} onClick={() => navigate("/portfolio")} startIcon={fontSize === 25 ? <ArrowBackIcon /> : null}>
-                    {fontSize === 25 ? "Back" : <ArrowBackIcon />}
+                <Button size={buttonSize} variant="contained" sx={{width: {xs: '10%',lg: '7%'},fontFamily: 'Play',backgroundColor: '#000000','&:hover': {backgroundColor: '#000000'}}} onClick={() => navigate("/portfolio")} startIcon={fontSize === 30 ? <ArrowBackIcon /> : null}>
+                    {fontSize === 30 ? "Back" : <ArrowBackIcon />}
                 </Button>
                 <Typography sx={{mt: {xs: 1,sm: 0},justifyContent: 'center',alignItems: 'center',fontSize: {fontSize},fontFamily: 'Play',fontWeight: 'bold'}}>
                         {projectDetails.title}
@@ -75,9 +75,13 @@ function ProjectDetails(props) {
                     </>
                 ) : null
             }
-            <Typography variant="h6" sx={{fontWeight: 'bold',fontSize: {fontSize},fontFamily: 'Play'}}>
-                About the project
-            </Typography>
+            {
+                projectDetails.info.length !== 0 ? (
+                    <Typography variant="h6" sx={{fontWeight: 'bold',fontSize: {fontSize},fontFamily: 'Play'}}>
+                        About the project
+                    </Typography>
+                ) : null
+            }
             <List>
                 {
                     projectDetails.info.map((point) => (

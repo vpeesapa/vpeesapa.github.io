@@ -57,11 +57,11 @@ export const cards = [
         link: "https://team-glasses.itch.io/effugium",
         objectFit: "cover",
         info: [
-            "Players explore an abandoned space facility in search for a means of escape by solving puzzles with hints told diegetically through the environment.",
-            "The design of Effugium emphasized a dreadful atmosphere mixed in with immersive sounds as well as an emergent narrative.",
+            "In Effugium, players explore an abandoned space facility in search for a means of escape by solving puzzles with hints told diegetically through the environment.",
+            "The design of Effugium emphasizes a dreadful atmosphere mixed in with immersive sounds as well as an emergent narrative.",
             "Sounds and music were made in collaboration with students from the Berklee College of Music.",
             "I served as the co-director and co-producer for the game and was responsible for the design of its world and narrative. I was also responsible for the interaction and movement systems, which formed the core gameplay.",
-            "Technologies used: Unity/C#"
+            "Technologies used: Unity 3D"
         ]
     },
     {
@@ -70,15 +70,27 @@ export const cards = [
         description: "A 2D bullet hell shooter inspired by the hacking minigame from NieR:Automata",
         thumbnail: TheEndlessBattle,
         link: "https://megane20.itch.io/the-endless-battle",
-        objectFit: "cover"
+        objectFit: "cover",
+        info: [
+            "The Endless Battle is a 2D bullet hell shooter where players must survive an endless barrage of attacks from distinct types of enemies, each with their own unique shooting patterns.",
+            "I was responsible for all components of the game, including systems for the game's UI, player movement, and projectiles.",
+            "The Endless Battle has support for PS4 controllers.",
+            "Technologies used: Python (Pygame)"
+        ]
     },
     {
         id: 2,
-        title: "Unititled Platformer Game",
+        title: "Untitled Platformer Game",
         description: "A challenging 2D platformer game",
         thumbnail: UntitledPlatformerGame,
         link: "https://megane20.itch.io/untitled-platformer-game",
-        objectFit: "cover"
+        objectFit: "cover",
+        info: [
+            "Untitled Platformer Game is a 2D platformer game that challenges the players to clear a gauntlet of arduous courses in a variety of unique worlds.",
+            "In Untitled Platformer Game, players take the role of Koble, an adventurous young man on a quest to connect the disconnected worlds of Isolasia.",
+            "I was responsible for adding UI elements, the narrative, conducting playtests, and the press kit. I also designed the opening world.",
+            "Technologies Used: Unity"
+        ]
     },
     {
         id: 3,
@@ -86,7 +98,8 @@ export const cards = [
         description: "A simple 3D graphics library that renders and modifies images based on specifications",
         thumbnail: Teapot,
         link: "",
-        objectFit: "fill"
+        objectFit: "fill",
+        info: []
     },
     {
         id: 4,
@@ -94,7 +107,14 @@ export const cards = [
         description: "An easy-to-use web application that curates relevant health information specifically catered towards senior citizens",
         thumbnail: HealthyU,
         link: "",
-        objectFit: "fill"
+        objectFit: "fill",
+        info: [
+            "HealthyU is an easy-to-use web application designed to provide reliable health information when accessing a kiosk.",
+            "HealthyU was developed as a progressive web app, which means that it can also be accessed offline.",
+            "The project was awarded the Digital Health Resources Grant provided by UC Davis Health.",
+            "I was involved in the beautifaction of the front-end, creating protected admin pages, and writing scrapers for easier gathering and testing of content in the application.",
+            "Technologies used: React.js for front-end, Express.js for back-end, AWS for hosting the website, and Python (Beautiful Soup) for the scapers"
+        ]
     },
     {
         id: 5,
@@ -102,7 +122,14 @@ export const cards = [
         description: "A web application that helps students keep track of their daily activities",
         thumbnail: Scheduled,
         link: "https://github.com/vpeesapa/Scheduled",
-        objectFit: "cover"
+        objectFit: "cover",
+        info: [
+            "Scheduled! is a web application that integrates and personalizes necessary tools that are found in an organizer application such as a to-do list, etc. with a schedule that keeps track of a student's daily activities.",
+            "The user is given complete freedom to add, edit, or delete items from their widgets.",
+            "The application also features a weather widget which displays real-time weather on the homepage.",
+            "I was responsible for UX and user testing.",
+            "Techonlogies used: HTML, CSS, and JavaScript"
+        ]
     }
 ];
 
