@@ -51,16 +51,20 @@ function ProjectDetails(props) {
                         {projectDetails.title}
                 </Typography>
             </Stack>
-            <Box
-                component="img"
-                sx={{
-                    height: {xs: 150,sm: 250,md: 350,lg: 500},
-                    width: {xs: 300,sm: 500,md: 600,lg: 800},
-                    mt: {xs: 2,sm: 2}
-                }}
-                alt={projectDetails.title}
-                src={projectDetails.thumbnail}
-            />
+            {
+                projectDetails.includePic ? (
+                    <Box
+                        component="img"
+                        sx={{
+                            height: {xs: 150,sm: 250,md: 350,lg: 500},
+                            width: {xs: 300,sm: 500,md: 600,lg: 800},
+                            mt: {xs: 2,sm: 2}
+                        }}
+                        alt={projectDetails.title}
+                        src={projectDetails.thumbnail}
+                    />
+                ) : null
+            }
             <Typography variant="h5" sx={{pt: {xs: 3,sm: 7},fontSize: {fontSize},fontFamily: 'Play'}}>
                 {projectDetails.description}
             </Typography>

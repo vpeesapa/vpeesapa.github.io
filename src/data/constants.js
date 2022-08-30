@@ -5,7 +5,7 @@ import LanguageIcon from '@mui/icons-material/Language';
 import Effugium from './images/Effugium_Logo.jpg';
 import TheEndlessBattle from './images/The Endless Battle.png';
 import UntitledPlatformerGame from './images/untitled-platformer-game.png';
-import Teapot from './images/teapot.png';
+import Steam from './images/steam.png';
 import HealthyU from './images/healthy-u.png';
 import Scheduled from './images/scheduled.png';
 import BSP from './images/bsp-cover.jpg';
@@ -54,6 +54,7 @@ export const cards = [
         title: "Effugium",
         description: "An immersive first-person exploratory horror walking simulator",
         thumbnail: Effugium,
+        includePic: true,
         link: "https://team-glasses.itch.io/effugium",
         objectFit: "cover",
         info: [
@@ -69,6 +70,7 @@ export const cards = [
         title: "The Endless Battle",
         description: "A 2D bullet hell shooter inspired by the hacking minigame from NieR:Automata",
         thumbnail: TheEndlessBattle,
+        includePic: true,
         link: "https://megane20.itch.io/the-endless-battle",
         objectFit: "cover",
         info: [
@@ -83,6 +85,7 @@ export const cards = [
         title: "Untitled Platformer Game",
         description: "A challenging 2D platformer game",
         thumbnail: UntitledPlatformerGame,
+        includePic: true,
         link: "https://megane20.itch.io/untitled-platformer-game",
         objectFit: "cover",
         info: [
@@ -94,18 +97,26 @@ export const cards = [
     },
     {
         id: 3,
-        title: "3D Graphics Library",
-        description: "A simple 3D graphics library that renders and modifies images based on specifications",
-        thumbnail: Teapot,
-        link: "",
-        objectFit: "fill",
-        info: []
+        title: "Steam Specials Bot",
+        description: "A Discord bot that displays the top 10 games currently on sale on Steam",
+        thumbnail: Steam,
+        includePic: false,
+        link: "https://github.com/vpeesapa/steam-specials-scraper-bot",
+        objectFit: "cover",
+        info: [
+            "Steam Specials Bot scrapes the latest sales information from Steam storefront and displays the top 10 games that are currently on sale.",
+            "The bot also displays the top 10 best sellers for that particular day on the Steam storefront.",
+            "Discord users with access to the bot simply need to send a message to the bot to request for the information they seek.",
+            "I was responsible for developing the bot from scratch.",
+            "Technologies Used: Python - Beautiful Soup for scraping data and Discord.py for creating endpoints to connect the bot to Discord"
+        ]
     },
     {
         id: 4,
         title: "HealthyU",
         description: "An easy-to-use web application that curates relevant health information specifically catered towards senior citizens",
         thumbnail: HealthyU,
+        includePic: true,
         link: "",
         objectFit: "fill",
         info: [
@@ -113,7 +124,7 @@ export const cards = [
             "HealthyU was developed as a progressive web app, which means that it can also be accessed offline.",
             "The project was awarded the Digital Health Resources Grant provided by UC Davis Health.",
             "I was involved in the beautifaction of the front-end, creating protected admin pages, and writing scrapers for easier gathering and testing of content in the application.",
-            "Technologies used: React.js for front-end, Express.js for back-end, AWS for hosting the website, and Python (Beautiful Soup) for the scapers"
+            "Technologies used: React.js for front-end, Express.js for back-end, AWS for hosting the website, and Python (Beautiful Soup) for the scrapers"
         ]
     },
     {
@@ -121,6 +132,7 @@ export const cards = [
         title: "Scheduled!",
         description: "A web application that helps students keep track of their daily activities",
         thumbnail: Scheduled,
+        includePic: true,
         link: "https://github.com/vpeesapa/Scheduled",
         objectFit: "cover",
         info: [
