@@ -2,9 +2,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LanguageIcon from '@mui/icons-material/Language';
+import Eye4Eye from './images/eye4eye_img.jpg';
+import SmallTalk from './images/small_talk_img.png';
 import Effugium from './images/Effugium_Logo.jpg';
 import TheEndlessBattle from './images/The Endless Battle.png';
 import UntitledPlatformerGame from './images/untitled-platformer-game.png';
+import PrimeEngine from './images/PrimeEngine.png';
 import Steam from './images/steam.png';
 import HealthyU from './images/healthy-u.png';
 import Scheduled from './images/scheduled.png';
@@ -51,6 +54,44 @@ export const socialMediaLinks = [
 export const cards = [
     {
         id: 0,
+        title: "Eye 4 Eye",
+        description: "A first-person detective adventure puzzle game with retro graphics",
+        thumbnail: Eye4Eye,
+        includePic: true,
+        link: "https://store.steampowered.com/app/2269450/Eye_4_Eye/",
+        objectFit: "cover",
+        info: [
+            "In Eye 4 Eye, players assume the role of Hazel, a struggling detective in a futuristic dystopia tasked with solving a mysterious missing daughter case inside of a mysterious Victorian mansion, bizarrely found inside of a high-tech company complex.",
+            "Players must gather clues with the help of their trusty search engine and uncover the dark secrets surrounding this strange case.",
+            "I served as the Lead Engineer of the game and played a key role in the development of the core gameplay systems of the game. At the same time, I was also responsible for ensuring that the engineering team wrote modular and designer-friendly code.",
+            "As a lead, I also regularly communicated with other disciplines in the team - notably the Director, Production, Design, Usability, and QA teams to discuss design implementations and development pipelines. I also regularly communicated with the engineering team either through weekly standup meetings or one-on-ones to ensure frequent updates were made.",
+            "I was also responsible for maintaining the Technical Design Document and Burndown Chart to help ease the process of developing such a large game.",
+            "As an engineer, I contributed in the development of some of the core gameplay systems like the movement, interaction, item history, inventory, and dialogue systems. I also worked on many accessibility related systems like the dynamically layered hint system.",
+            "I also developed functionality that allows the shader to be dynamically modified based on in-game events to better fit the mood of the situation.",
+            "In addition, I also worked on the Save/Load system and also developed the Steam port of the game, including implementing Steam achievements.",
+            "Technologies used: Unity 3D, Perforce for version control, YarnSpinner for the Dialogue system, and Easy Save 3 for the Save/Load system"
+        ]
+    },
+    {
+        id: 1,
+        title: "Small Talk",
+        description: "An experimental game about conversations",
+        thumbnail: SmallTalk,
+        includePic: true,
+        link: "",
+        objectFit: "cover",
+        info: [
+            "Small Talk is an experimental game where players take up the role of a police investigator and interrogate an individual named Jake Smith regarding a murder case and force him to confess his crimes.",
+            "The core gameplay loop involves the player reading documents relevant to the case, regularly conversing with Jake, and gathering enough evidence that can corner him. Additionally, Jake's responses are controlled by a conversational AI based on his backstory data saved in Convai's conversational agent creation suite.",
+            "Small Talk was developed as a Directed Research project to study the effectiveness of conversational AI as a means of engagement and immersion for the player.",
+            "My contributions towards Small Talk include designing the core gameplay loop and narrative for the game. I also served as a Producer on the project to regularly manage progress using tools such as Trello and organize frequent meetings between teammates.",
+            "Towards the end of development, I was also responsible for robust prompt engineering to make the gameplay and relevant conversations feel more dynamic.",
+            "Throughout the entire development process, I also actively participated in the engineering design of the underlying system.",
+            "Technologies used: Unity, Perforce for version control, Convai for conversational AI tools, Trello for tracking progress, and Twine for prototyping the overarching narrative"
+        ]
+    },
+    {
+        id: 2,
         title: "Effugium",
         description: "An immersive first-person exploratory horror walking simulator",
         thumbnail: Effugium,
@@ -62,11 +103,12 @@ export const cards = [
             "The design of Effugium emphasizes a dreadful atmosphere mixed in with immersive sounds as well as an emergent narrative.",
             "Sounds and music were made in collaboration with students from the Berklee College of Music.",
             "I served as the co-director and co-producer for the game and was responsible for the design of its world and narrative. I was also responsible for the interaction and movement systems, which formed the core gameplay.",
-            "Technologies used: Unity 3D"
+            "I also developed the Steam port of the game, including implementing Steam achievements.",
+            "Technologies used: Unity 3D, Perforce for version control"
         ]
     },
     {
-        id: 1,
+        id: 3,
         title: "The Endless Battle",
         description: "A 2D bullet hell shooter inspired by the hacking minigame from NieR:Automata",
         thumbnail: TheEndlessBattle,
@@ -81,7 +123,7 @@ export const cards = [
         ]
     },
     {
-        id: 2,
+        id: 4,
         title: "Untitled Platformer Game",
         description: "A challenging 2D platformer game",
         thumbnail: UntitledPlatformerGame,
@@ -96,7 +138,23 @@ export const cards = [
         ]
     },
     {
-        id: 3,
+        id: 5,
+        title: "Modifying PrimeEngine",
+        description: "",
+        thumbnail: PrimeEngine,
+        includePic: true,
+        link: "",
+        objectFit: "cover",
+        info: [
+            "As part of the game engine development class at USC, I implemented a slew of new features to PrimeEngine, a barebones 3D game engine provided to us by Prof. Artem Kovalovs.",
+            "Some of these features included creating a Physics system from scratch that determined how various objects in the scene would interact with and implementing camera frustum culling to improve performance by generating AABB boxes around every mesh in the scene.",
+            "I also implemented a Wind Physics system which would enable a mesh to sway in the direction of the wind source by utilizing related shader code.",
+            "As part of my milestones, I implemented additional scripting functionality for the Lua scripts and tested it on various colliders and triggers.",
+            "Technologies Used: C++ and Maya for importing levels into the scene"
+        ]
+    },
+    {
+        id: 6,
         title: "Steam Specials Bot",
         description: "A Discord bot that displays the top 10 games currently on sale on Steam",
         thumbnail: Steam,
@@ -112,7 +170,7 @@ export const cards = [
         ]
     },
     {
-        id: 4,
+        id: 7,
         title: "HealthyU",
         description: "An easy-to-use web application that curates relevant health information specifically catered towards senior citizens",
         thumbnail: HealthyU,
@@ -128,7 +186,7 @@ export const cards = [
         ]
     },
     {
-        id: 5,
+        id: 8,
         title: "Scheduled!",
         description: "A web application that helps students keep track of their daily activities",
         thumbnail: Scheduled,

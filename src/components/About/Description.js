@@ -39,11 +39,11 @@ function Description(props) {
                 Education
             </Typography>
             <Typography sx={{fontSize: {fontSize},fontFamily: 'Play'}}>
-                I am currently pursuing my Master's degree in Computer Science (Game Development) at the University of Southern California.
+                I recently completed my Master's degree in Computer Science (Game Development) at the University of Southern California.
             </Typography>
             <br />
             <Typography sx={{fontSize: {fontSize},fontFamily: 'Play'}}>
-                I completed my Bachelor's degree in Computer Science & Engineering from the University of California, Davis along with a minor in Mathematics.
+                I had previously completed my Bachelor's degree in Computer Science & Engineering from the University of California, Davis along with a minor in Mathematics.
             </Typography>
             <Stack direction="row" sx={{display: 'flex',flexWrap: 'wrap',justifyContent: 'center'}}>
                 <a href="https://www.usc.edu">

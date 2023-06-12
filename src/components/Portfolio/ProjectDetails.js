@@ -6,7 +6,6 @@ import {
     List,
     ListItem,
     ListItemText,
-    ListItemIcon,
     Button,
     useMediaQuery
 } from '@mui/material';
@@ -18,7 +17,6 @@ import {
     cards
 } from '../../data/constants';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import StarIcon from '@mui/icons-material/Star';
 
 function ProjectDetails(props) {
     // Get the index of the project from the parameter
@@ -90,13 +88,6 @@ function ProjectDetails(props) {
                 {
                     projectDetails.info.map((point) => (
                         <ListItem sx={{textAlign: 'justify'}}>
-                            {
-                                !matches ? (
-                                    <ListItemIcon>
-                                        <StarIcon />
-                                    </ListItemIcon>
-                                ) : null
-                            }
                             <ListItemText
                                 primary={
                                     <Typography
