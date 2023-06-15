@@ -63,9 +63,13 @@ function ProjectDetails(props) {
                     />
                 ) : null
             }
-            <Typography variant="h5" sx={{pt: {xs: 3,sm: 7},fontSize: {fontSize},fontFamily: 'Play'}}>
-                {projectDetails.description}
-            </Typography>
+            {
+                projectDetails.description !== "" ? (
+                    <Typography variant="h5" sx={{pt: {xs: 3,sm: 7},fontSize: {fontSize},fontFamily: 'Play'}}>
+                        {projectDetails.description}
+                    </Typography>
+                ) : null
+            }
             <br />
             {
                 projectDetails.link !== "" ? (

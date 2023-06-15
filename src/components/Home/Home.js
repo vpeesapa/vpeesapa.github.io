@@ -10,6 +10,7 @@ import {
     Link
 } from 'react-router-dom';
 import portfolioImg from '../../data/images/portfolio-img.jpg';
+import Resume from '../../data/documents/Varun_Peesapati_Resume.pdf';
 import {
     cards
 } from '../../data/constants';
@@ -47,6 +48,10 @@ function Home(props) {
                 <br />
                 <Typography sx={{pb: {xs: 3,sm: 3},fontSize: {fontSize},fontFamily: 'Play'}}>
                     Welcome to Varun Peesapati's personal website!
+                </Typography>
+                <br />
+                <Typography sx={{p: {xs: 3,sm: 3},fontSize: {fontSize},fontFamily: 'Play'}}>
+                    To check out my resume and experience, click <a href={Resume}>here</a>.
                 </Typography>
                 <Divider />
                 <Box>
