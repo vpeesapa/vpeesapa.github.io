@@ -1,12 +1,18 @@
 body {
-  background-color: #34e1eb;
+  /* background-color: #34e1eb; */
+  background-image: linear-gradient(to bottom right,rgba(245,245,220,0.3),rgba(245,245,220,0.7));
+  /* background-image: url(./data/images/test-bgm.gif);
+  background-size: 100%; */
 }
 
 .App {
   text-align: center;
   margin: 100px 20px 20px 20px;
-  border-style: dashed;
-  background-color: #faf887;
+  border-style: dotted;
+  border-width: 3px;
+  border-color: grey;
+  /* background-color: #faf887; */
+  background-image: radial-gradient(rgba(211,211,211,0.3),rgba(211,211,211,0.7));
   display: flex;
   flex-direction: column;
 }
