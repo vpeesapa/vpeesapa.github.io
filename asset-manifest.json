@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.79e64f78.css",
-    "main.js": "/static/js/main.d4e91af8.js",
+    "main.js": "/static/js/main.4cef9bb5.js",
     "static/js/787.2df0ac3d.chunk.js": "/static/js/787.2df0ac3d.chunk.js",
     "static/media/PrimeEngine.png": "/static/media/PrimeEngine.3ebeec736f2642e49c64.png",
     "static/media/untitled-platformer-game.png": "/static/media/untitled-platformer-game.30356a3c5f94c2a26b12.png",
@@ -21,11 +21,11 @@
     "static/media/usc-logo.png": "/static/media/usc-logo.93716ea1a356914b3c9b.png",
     "index.html": "/index.html",
     "main.79e64f78.css.map": "/static/css/main.79e64f78.css.map",
-    "main.d4e91af8.js.map": "/static/js/main.d4e91af8.js.map",
+    "main.4cef9bb5.js.map": "/static/js/main.4cef9bb5.js.map",
     "787.2df0ac3d.chunk.js.map": "/static/js/787.2df0ac3d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79e64f78.css",
-    "static/js/main.d4e91af8.js"
+    "static/js/main.4cef9bb5.js"
   ]
 }
