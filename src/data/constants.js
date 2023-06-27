@@ -96,7 +96,7 @@ export const cards = [
         description: "An immersive first-person exploratory horror walking simulator",
         thumbnail: Effugium,
         includePic: true,
-        link: "https://team-glasses.itch.io/effugium",
+        link: "https://store.steampowered.com/app/2429720/Effugium/",
         objectFit: "cover",
         info: [
             "In Effugium, players explore an abandoned space facility in search for a means of escape by solving puzzles with hints told diegetically through the environment.",
