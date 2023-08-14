@@ -17,6 +17,7 @@ import {
     cards
 } from '../../data/constants';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import Parser from 'html-react-parser';
 
 function ProjectDetails(props) {
     // Get the index of the project from the parameter
@@ -101,7 +102,7 @@ function ProjectDetails(props) {
                                             fontFamily: 'Play'
                                         }}
                                     >
-                                        {point}
+                                        {Parser(point)}
                                     </Typography>
                                 }
                             />
